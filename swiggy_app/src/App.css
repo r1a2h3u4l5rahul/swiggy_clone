@@ -1,0 +1,213 @@
+
+.navbar{
+  width: 100%;
+  display: flex;
+  height:80px;
+  padding: 0px;
+  margin-top:0px ;
+  background-color: #ffffff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  position: sticky;
+  top: 0;
+}
+
+.nav-left{
+  width: 40%;
+  display: flex;
+  /* border: 1px solid red; */
+  justify-content:space-around ;
+  align-items: center;
+}
+.location{
+  font-size: 20px;
+  color: #8A8D96;
+}
+
+.location>span:first-child{
+  font-weight: bold;
+  color: black;
+  text-decoration: underline;
+  margin-right: 10px;
+}
+
+.location-arrow{
+  color: #FD8119;
+}
+
+.navbarmenu{
+  width: 100%;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  font-weight: bold;
+}
+
+.navbarmenu>ul{
+  width: 70%;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.swiggylogo{
+  width: 35px;
+  height: 50px;
+}
+.header {
+    display: flex;
+    justify-content: space-between ;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.nav-items > ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-items > ul > li {
+    padding: 10px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.card > img {
+    width: 100%;
+}
+
+.restaurant-list {
+    /* display: flex;
+    flex-wrap: wrap; */
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(4,22%);
+    grid-template-rows: auto;
+    gap:2rem 20px;
+    margin: 15px auto;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+}
+.card{
+  /* width: 300px; */
+  /* height: 40vh; */
+  /* border: 1px solid black; */
+  /* padding: 10px; */
+  color: #282C3F;
+  padding: 15px;
+  overflow: hidden;
+  transition: all 0.5s;
+  /* margin: 10px; */
+}
+.card:hover{
+  border:1px solid #E8E9EA;
+  padding: 15px;
+  transform: scale(1.1);
+  overflow: hidden;
+}
+/* .card{
+  width: 300px;
+} */
+
+.card-link{
+  text-decoration: none;
+  color: #8A8D96;
+}
+/* .shimmer-card {
+    width: 400px;
+    height: 300px;
+    background: lightgrey;
+    margin: 20px;
+} */
+
+.menu {
+    display: flex;
+}
+
+.search-div{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  width: 100%;
+  height: 280px;
+  background-color: #494C61;
+  color: #ffffff;
+}
+.search-content{
+  width: 40%;
+  margin-left: 20%;
+}
+.search-input-box{
+  border: 0px;
+  
+}
+.search-input{
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  height: 2.8rem;
+  background-color: #ffffff;
+}
+.search-input>input{
+  width: 75%;
+}
+.search-input>button{
+  width: 25%;
+  height: 100%;
+  background-color: #FC8118;
+  color: #ffffff;
+  border: 0px;
+  font-weight: bold;
+}
+
+/* card price */
+
+.price-div{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.7rem;
+}
+.restaurant-name{
+  line-height: 10px;
+}
+.restaurant-cuisines{
+  font-size: 1rem;
+  overflow: hidden;
+}
+.rating{
+  width: 20%;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  /* background-color: #48C479;
+  color: #ffffff; */
+}
+.price-dots{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardhrline{
+  color: #E8E9EA;
+  /* margin-bottom: 10px; */
+}
+.card-discount{
+  display: flex;
+  align-items: center;
+  color: #8A594A;
+  font-size: 0.9rem;
+  padding-bottom: 10px;
+}
+.card-discount-icon{
+  margin-right: 7px;
+  background-color: #8A594A;
+  color: #ffffff;
+  border-radius: 50%;
+  font-size: 1rem;
+  font-weight: bold;
+}
