@@ -44,7 +44,7 @@ const AppRouter = createBrowserRouter([
         element: <RestaurantMenu />,
       },
     ],
-  },
+  }
 ]);
 
 export default AppRouter;

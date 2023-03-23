@@ -30,8 +30,8 @@ const Search = ({searchData}) => {
   return (
     <div className="search-div">
       <div className="search-content">
-      <h1>Great restaurants in Bangalore, delivering to you</h1>
-        <p>Set exact location to find the right restaurants near you.</p>
+      <h1>Great restaurants in Pune, delivering to you</h1>
+        <p>Enter restaurant name to find the right restaurants near you.</p>
        <div className='search-input'>
         <input
        

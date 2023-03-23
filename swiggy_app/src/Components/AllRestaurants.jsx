@@ -3,7 +3,7 @@ import RestaurantCard from "./RestaurantCard";
 import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
-import Search from "./Search";
+import Search from "./Search"; 
 
 function filterData(searchText, restaurants) {
   const filterData = restaurants.filter((restaurant) =>
