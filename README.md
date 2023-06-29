@@ -1,3 +1,3 @@
 # swiggy_clone
 * It's a frontend project.
-* I used swiggy's api for the backend. 
+* I used Swiggy's api for the backend. 
